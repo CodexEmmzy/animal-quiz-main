@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const ContactForm: React.FC = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -12,17 +12,34 @@ const ContactForm: React.FC = () => {
       onSubmit={() => setSubmitted(true)}
     >
       <h2 className="text-2xl font-heading mb-4">Contact Us</h2>
-      <label className="block mb-2">Name
-        <input name="name" type="text" required className="w-full p-2 mb-4 rounded" />
+      <label className="block mb-2">
+        Name
+        <input
+          name="name"
+          type="text"
+          required
+          className="w-full p-2 mb-4 rounded"
+        />
       </label>
-      <label className="block mb-2">Email
-        <input name="email" type="email" required className="w-full p-2 mb-4 rounded" />
+      <label className="block mb-2">
+        Email
+        <input
+          name="email"
+          type="email"
+          required
+          className="w-full p-2 mb-4 rounded"
+        />
       </label>
-      <label className="block mb-2">Message
+      <label className="block mb-2">
+        Message
         <textarea name="message" required className="w-full p-2 mb-4 rounded" />
       </label>
-      <button type="submit" className="btn btn-primary">Send</button>
-      {submitted && <p className="mt-4 text-green-500">Thank you for your message!</p>}
+      <button type="submit" className="btn btn-primary">
+        Send
+      </button>
+      {submitted && (
+        <p className="mt-4 text-green-500">Thank you for your message!</p>
+      )}
     </form>
   );
 };
