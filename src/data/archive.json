@@ -1,0 +1,51 @@
+[
+  {
+    "id": "structured-innovation",
+    "title": "Structured Innovation: Methodological Approaches",
+    "category": "Innovation",
+    "date": "February 2025",
+    "fileUrl": "#"
+  },
+  {
+    "id": "order-patterns",
+    "title": "Order Patterns in Complex Systems",
+    "category": "Order",
+    "date": "December 2024",
+    "fileUrl": "#"
+  },
+  {
+    "id": "resilient-infrastructure",
+    "title": "Resilient Infrastructure: Design Principles",
+    "category": "Infrastructure",
+    "date": "October 2024",
+    "fileUrl": "#"
+  },
+  {
+    "id": "clarity-communication",
+    "title": "Clarity in Technical Communication",
+    "category": "Communication",
+    "date": "August 2024",
+    "fileUrl": "#"
+  },
+  {
+    "id": "adaptive-systems",
+    "title": "Adaptive Systems: Theoretical Foundations",
+    "category": "Systems",
+    "date": "July 2024",
+    "fileUrl": "#"
+  },
+  {
+    "id": "organizational-neural",
+    "title": "Organizational Neural Networks",
+    "category": "Organization",
+    "date": "May 2024",
+    "fileUrl": "#"
+  },
+  {
+    "id": "sustainable-design",
+    "title": "Sustainable Design Frameworks",
+    "category": "Design",
+    "date": "March 2024",
+    "fileUrl": "#"
+  }
+]

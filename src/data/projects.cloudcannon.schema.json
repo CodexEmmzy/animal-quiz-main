@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Projects",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "string", "title": "Project ID" },
+      "title": { "type": "string", "title": "Title" },
+      "summary": { "type": "string", "title": "Summary" },
+      "description": { "type": "string", "title": "Description" },
+      "objectives": { "type": "array", "items": { "type": "string" }, "title": "Objectives" },
+      "elements": { "type": "array", "items": { "type": "string" }, "title": "Elements" },
+      "scenarios": { "type": "array", "items": { "type": "string" }, "title": "Scenarios" },
+      "extensions": { "type": "array", "items": { "type": "string" }, "title": "Extensions" },
+      "imageUrl": { "type": "string", "title": "Image URL" },
+      "featured": { "type": "boolean", "title": "Featured" }
+    },
+    "required": ["id", "title", "summary", "description", "objectives", "elements", "scenarios", "extensions", "featured"]
+  }
+}

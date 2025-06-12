@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-text font-body;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading text-text-light;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+  
+  .nav-link {
+    @apply text-text hover:text-steel transition-colors duration-300 relative font-medium;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-steel transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  .nav-link.active {
+    @apply text-steel;
+  }
+
+  .nav-link.active::after {
+    @apply w-full;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center px-5 py-2 text-sm font-medium transition-colors duration-300 rounded;
+  }
+
+  .btn-primary {
+    @apply bg-steel hover:bg-steel-dark text-white;
+  }
+
+  .btn-outline {
+    @apply border border-steel text-steel hover:bg-steel hover:text-white;
+  }
+
+  .project-card {
+    @apply bg-background-light p-6 rounded-lg transition-all duration-300 hover:shadow-[0_0_15px_rgba(90,139,186,0.2)] relative overflow-hidden;
+  }
+
+  .archive-item {
+    @apply border-b border-gray-800 py-4 hover:bg-background-light transition-colors duration-300 px-4;
+  }
+}
+
+/* Background pattern */
+.bg-pattern {
+  background-image: url('/pattern.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Archive Items",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "string", "title": "ID" },
+      "title": { "type": "string", "title": "Title" },
+      "category": { "type": "string", "title": "Category" },
+      "date": { "type": "string", "title": "Date" },
+      "fileUrl": { "type": "string", "title": "File URL" }
+    },
+    "required": ["id", "title", "category", "date", "fileUrl"]
+  }
+}

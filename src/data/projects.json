@@ -1,0 +1,126 @@
+[
+  {
+    "id": "terravivum",
+    "title": "Terravivum",
+    "summary": "A framework for sustainable ecosystem design",
+    "description": "Terravivum represents a structured approach to ecological system design that balances human needs with environmental sustainability. The framework provides methodological tools for creating self-sustaining ecosystems at various scales.",
+    "objectives": [
+      "Create balanced ecological systems that require minimal external inputs",
+      "Develop methodologies for scaling sustainable design from urban gardens to regional planning",
+      "Establish clear metrics for evaluating ecosystem resilience and productivity",
+      "Bridge theoretical ecological principles with practical implementation"
+    ],
+    "elements": [
+      "Closed-loop nutrient cycling protocols",
+      "Multi-layered vegetation stacking methodologies",
+      "Water harvesting and retention systems",
+      "Biodiversity integration frameworks"
+    ],
+    "scenarios": [
+      "Urban food production systems",
+      "Degraded land rehabilitation",
+      "Climate-adaptive landscape design",
+      "Integrated human-nature habitats"
+    ],
+    "extensions": [
+      "Digital twin modeling for ecosystem simulation",
+      "Bioregional planning methodologies",
+      "Carbon sequestration optimization"
+    ],
+    "imageUrl": "https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg",
+    "featured": true
+  },
+  {
+    "id": "ordervault",
+    "title": "OrderVault",
+    "summary": "Systematizing information hierarchy for complex organizations",
+    "description": "OrderVault is a conceptual framework for establishing robust information architecture within organizations dealing with complex data environments. It provides both theoretical models and practical implementation strategies for information ordering.",
+    "objectives": [
+      "Create scalable information taxonomies that can evolve with organizational growth",
+      "Reduce cognitive overhead in information retrieval and utilization",
+      "Establish structural patterns that can be applied across diverse domains",
+      "Balance centralized control with distributed maintenance"
+    ],
+    "elements": [
+      "Hierarchical taxonomy blueprints",
+      "Cross-reference mapping methodologies",
+      "Semantic relationship frameworks",
+      "Contextual access patterns"
+    ],
+    "scenarios": [
+      "Research institution knowledge management",
+      "Multi-national corporate information architecture",
+      "Public sector data coordination",
+      "Cross-domain collaboration platforms"
+    ],
+    "extensions": [
+      "Machine learning augmentation for taxonomy evolution",
+      "Cognitive load optimization metrics",
+      "Decentralized governance models"
+    ],
+    "imageUrl": "https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg",
+    "featured": false
+  },
+  {
+    "id": "neural-nexus",
+    "title": "Neural Nexus",
+    "summary": "Bridging cognitive science and organizational structure",
+    "description": "Neural Nexus explores the parallels between neural network organization in the human brain and optimal organizational structures. The project develops models for creating resilient, adaptive organizational systems inspired by neuroscience principles.",
+    "objectives": [
+      "Identify structural patterns in neural organization applicable to human systems",
+      "Develop frameworks for resilient organizational design based on brain architecture",
+      "Create metrics for evaluating organizational adaptability and information flow",
+      "Bridge neuroscientific understanding with practical organizational theory"
+    ],
+    "elements": [
+      "Small-world network implementation strategies",
+      "Information flow optimization models",
+      "Distributed decision-making frameworks",
+      "Adaptive response mechanisms"
+    ],
+    "scenarios": [
+      "Crisis-resilient organizational structures",
+      "Rapidly-scaling technology organizations",
+      "Cross-functional innovation teams",
+      "Distributed autonomous organizations"
+    ],
+    "extensions": [
+      "Computational modeling of organizational dynamics",
+      "Cognitive diversity optimization",
+      "Emergent leadership frameworks"
+    ],
+    "imageUrl": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg",
+    "featured": false
+  },
+  {
+    "id": "clarity-protocol",
+    "title": "Clarity Protocol",
+    "summary": "Methodologies for precision in communication",
+    "description": "The Clarity Protocol establishes systematic approaches to communication that minimize ambiguity and maximize information transfer efficiency. It provides frameworks applicable across technical documentation, organizational communication, and public discourse.",
+    "objectives": [
+      "Reduce semantic ambiguity in complex communications",
+      "Establish reusable patterns for precise information transfer",
+      "Create scalable frameworks for documentation in technical domains",
+      "Balance precision with accessibility across diverse audiences"
+    ],
+    "elements": [
+      "Semantic precision frameworks",
+      "Structured argumentation models",
+      "Visual communication hierarchies",
+      "Contextual definition systems"
+    ],
+    "scenarios": [
+      "Technical documentation standards",
+      "Cross-discipline scientific collaboration",
+      "Public policy communication",
+      "Critical infrastructure protocols"
+    ],
+    "extensions": [
+      "Cognitive linguistics integration",
+      "Multi-modal communication frameworks",
+      "Machine-verifiable communication structures"
+    ],
+    "imageUrl": "https://images.pexels.com/photos/3826678/pexels-photo-3826678.jpeg",
+    "featured": false
+  }
+]

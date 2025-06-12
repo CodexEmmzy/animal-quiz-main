@@ -1,0 +1,39 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2c4a6b" stroke-width="0.5" opacity="0.2"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="#121218"/>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+  
+  <!-- Neural network connections -->
+  <g opacity="0.15" filter="url(#glow)">
+    <path d="M100,200 C150,250 250,150 300,300" stroke="#5a8bba" stroke-width="1" fill="none"/>
+    <path d="M300,100 C350,150 450,50 500,200" stroke="#5a8bba" stroke-width="1" fill="none"/>
+    <path d="M200,400 C250,450 350,350 400,500" stroke="#5a8bba" stroke-width="1" fill="none"/>
+    <path d="M500,300 C550,350 650,250 700,400" stroke="#5a8bba" stroke-width="1" fill="none"/>
+    <path d="M100,600 C150,650 250,550 300,700" stroke="#5a8bba" stroke-width="1" fill="none"/>
+    <path d="M400,200 C450,250 550,150 600,300" stroke="#5a8bba" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- Nodes -->
+  <g opacity="0.2">
+    <circle cx="100" cy="200" r="3" fill="#a3c1e0"/>
+    <circle cx="300" cy="300" r="3" fill="#a3c1e0"/>
+    <circle cx="300" cy="100" r="3" fill="#a3c1e0"/>
+    <circle cx="500" cy="200" r="3" fill="#a3c1e0"/>
+    <circle cx="200" cy="400" r="3" fill="#a3c1e0"/>
+    <circle cx="400" cy="500" r="3" fill="#a3c1e0"/>
+    <circle cx="500" cy="300" r="3" fill="#a3c1e0"/>
+    <circle cx="700" cy="400" r="3" fill="#a3c1e0"/>
+    <circle cx="100" cy="600" r="3" fill="#a3c1e0"/>
+    <circle cx="300" cy="700" r="3" fill="#a3c1e0"/>
+    <circle cx="400" cy="200" r="3" fill="#a3c1e0"/>
+    <circle cx="600" cy="300" r="3" fill="#a3c1e0"/>
+  </g>
+</svg>
